@@ -1,14 +1,7 @@
-# Phaser + ES6 + Webpack.
-#### A bootstrap project to create games with Phaser + ES6 + Webpack.
-
-![Phaser+ES6+Webpack](https://raw.githubusercontent.com/lean/phaser-es6-webpack/master/assets/images/phaser-es6-webpack.jpg)
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
+# Phaser + TypeScript + Webpack.
+#### A bootstrap project to create games with Phaser + TypeScript + Webpack.
 
 ## Features
-- ESLINT with JavaScript Standard Style configuration
-- Next generation of Javascript
 - Webpack ready
 - Multiple browser testing
 - WebFont Loader
@@ -23,7 +16,7 @@ Navigate into your workspace directory.
 
 Run:
 
-```git clone https://github.com/lean/phaser-es6-webpack.git```
+```git clone https://github.com/lean/phaser-typeScript-webpack.git```
 
 ## 2. Install node.js and npm:
 
@@ -62,6 +55,5 @@ This will optimize and minimize the compiled bundle.
 ## Credits
 Big thanks to this great repos:
 
-https://github.com/belohlavek/phaser-es6-boilerplate
+https://github.com/lean/phaser-es6-webpack
 
-https://github.com/cstuncsik/phaser-es6-demo

@@ -1,14 +1,16 @@
-/* globals __DEV__ */
-import Phaser from 'phaser'
+declare global {const __DEV__: boolean}
+
+import * as Phaser from 'phaser'
 import Mushroom from '../sprites/Mushroom'
 
 export default class extends Phaser.State {
+  mushroom: Mushroom
   init () {}
   preload () {}
 
   create () {
     const bannerText = 'Phaser + ES6 + Webpack'
-    let banner = this.add.text(this.world.centerX, this.game.height - 80, bannerText)
+    let banner = this.add.text(this.world.centerX, this.game.height - 80, bannerText, {})
     banner.font = 'Bangers'
     banner.padding.set(10, 16)
     banner.fontSize = 40
