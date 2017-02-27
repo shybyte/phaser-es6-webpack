@@ -9,7 +9,7 @@ export default class extends Phaser.State {
   preload () {}
 
   create () {
-    const bannerText = 'Phaser + ES6 + Webpack'
+    const bannerText = 'Phaser + TypeScript + Webpack'
     let banner = this.add.text(this.world.centerX, this.game.height - 80, bannerText, {})
     banner.font = 'Bangers'
     banner.padding.set(10, 16)
@@ -19,7 +19,7 @@ export default class extends Phaser.State {
     banner.anchor.setTo(0.5)
 
     this.mushroom = new Mushroom({
-      game: this,
+      game: (this as any) as Phaser.Game,
       x: this.world.centerX,
       y: this.world.centerY,
       asset: 'mushroom'
